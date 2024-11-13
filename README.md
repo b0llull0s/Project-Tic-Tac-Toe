@@ -1,6 +1,7 @@
 # Project-Tic-Tac-Toe
 - A simple Tic-Tac-Toe game built using HTML, CSS, and JavaScript. 
 - This game allows two players to play against each other in a browser.
+- You can check the live demo [here](https://b0llull0s.github.io/Project-Tic-Tac-Toe/)
 ## Technologies Used
 - **HTML**: Used for the structure and layout of the game.
 - **CSS**: Used for styling and making the game visually appealing.

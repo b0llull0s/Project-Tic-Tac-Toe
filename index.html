@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="menu">
+        <a href="https://github.com/b0llull0s/Project-Tic-Tac-Toe" target="_blank">
+            <i class="icon-github-circled"></i>
+        </a>
+        <button id="newGamebtn">New Game</button>
+    </div>
+    
+    <header>
+        <div id="game-state">Player 1's Turn</div>
+        <div class="rules">First player to mark a row wins. Click a square to begin. </div>    
+    </header>
+    <main>
+        <section id="player1" class="player">
+            <div class="input-container">
+                <i class="icon-feather"></i>
+                <input type="text" placeholder="Player 1" id="player1-name" class="X">
+            </div>
+            <i class="icon-heart"></i>
+            <div class="player1-stats stats">Wins: 0</div> 
+        </section>
+        <section id="gameboard">
+            <div class="grid" id="grid">
+            </div>
+        </section>
+        <section id="player2" class="player">
+            <div class="input-container">
+                <i class="icon-feather"></i>
+                <input type="text" placeholder="Player 2" id="player2-name" class="O"> 
+            </div>
+            <i class="icon-heart-broken"></i>
+            <div class="player2-stats stats">Wins: 0</div> 
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
